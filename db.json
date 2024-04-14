@@ -1,0 +1,31 @@
+{
+    "inventoryItems": [
+      {
+        "id": 1,
+        "name": "Printer Paper",
+        "description": "500 sheets of A4 printer paper",
+        "price": 5,
+        "stockLevel": 150,
+        "reorderThreshold": 50,
+        "supplier": "Paper Supplies Co."
+      },
+      {
+        "id": 2,
+        "name": "Black Ink Cartridge",
+        "description": "High-capacity ink cartridge compatible with multiple HP models",
+        "price": 40,
+        "stockLevel": 30,
+        "reorderThreshold": 10,
+        "supplier": "InkNow"
+      },
+      {
+        "id": 3,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with USB charging",
+        "price": 20,
+        "stockLevel": 75,
+        "reorderThreshold": 25,
+        "supplier": "TechGear"
+      }
+    ]
+  }

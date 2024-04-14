@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url('/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding:0; 
+    height: 100vh; 
+}
+
+
+header {
+    background-color: #08e24a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav .navbar-brand {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+/* Navigation */
+.navbar {
+    border-bottom: 2px solid #ccc;
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #08e24a;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #08e24a;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Utility Classes */
+.bg-dark {
+    background-color: #333 !important;
+    color: white;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
